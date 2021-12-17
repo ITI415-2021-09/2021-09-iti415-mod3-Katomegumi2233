@@ -58,7 +58,7 @@ namespace EasyRopeBridge // Use own namespace to avoid conflicts with other asse
         private string Bridgename;                              // Stores name of bridge that gets created after pressing Play.
 
         // Add a menu item named "Easy Rope Bridge" to GameObject/3D Object menu with shortcut keys Alt+B.
-        [MenuItem("GameObject/3D Object/Create Easy Rope Bridge &b", false, -1)]
+        // [MenuItem("GameObject/3D Object/Create Easy Rope Bridge &b", false, -1)]
         private static void CreateBridge()
         {
             var newBridge = new GameObject();                   // Create an empty game object in the Hierarchy
